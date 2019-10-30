@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <script type="text/javascript"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+  </script>
+  <script type="text/javascript">
+    window.onload = function() {
+      alert("window loaded");
+    };
+    
+    $(document).ready(function(){
+      alert("DOM loaded");
+    });
+  </script>
+</head>
 <body>
 
 <h2>My First Shang Di Lang Ren Sha</h2>
@@ -9,6 +23,9 @@ onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display SEAR!</button>
 
 <p id="demo"></p>
+  
+
+  
 
 </body>
 </html> 
